@@ -3,14 +3,14 @@ layout: default
 ---
 
 <body>
+  <div class="web-bg">
   <div class="index-wrapper">
     <div class="aside">
       <div class="info-card">
         <h1>Sica </h1>
-        <h1>♡ My Secret Garden ♡</h1>
+        <h2>♡ My Secret Garden ♡</h2>
         <a href="http://weibo.com/sicajessica" target="_blank"><img src="http://www.weibo.com/favicon.ico" alt="" width="25"/></a>
       </div>
-      <div id="particles-js"></div>
     </div>
 
     <div class="index-content">
@@ -23,5 +23,6 @@ layout: default
         {% endfor %}
       </ul>
     </div>
+  </div>
   </div>
 </body>
