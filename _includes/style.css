@@ -183,7 +183,7 @@ a.external:hover {
   height:100%;
   z-index:-10;
   zoom: 1;
-   background-image: linear-gradient(to top right, rgba(0, 0, 255, 0.5), rgba(255, 0, 0, 0.75)), linear-gradient(rgba(0, 0, 255, 0.25) 100%, transparent), url("./images/ui/wallpaper.jpg");
+   background-image: linear-gradient(to top right, rgba(0, 0, 255, 0.5), rgba(255, 0, 0, 0.75)), linear-gradient(rgba(0, 0, 255, 0.25) 100%, transparent), url("https://raw.githubusercontent.com/Dearj611/dearj611.github.io/master/images/UI/wallpaper.jpg");
 /*  background-image: url(./images/ui/wallpaper.jpg);*/
   background-repeat: no-repeat;
   background-size: cover;
@@ -226,6 +226,8 @@ a.external:hover {
   margin-left: 30%;
   padding-top: 80px;
   padding-right: 15%;
+  top: 0;
+  right: 0;
 }
 @media screen and (max-width: 767px) {
   .index-wrapper .index-content {
@@ -243,6 +245,7 @@ a.external:hover {
   }
 }
 .index-wrapper .artical-list li {
+  margin:auto auto;
   margin-bottom: 70px;
 }
 .index-wrapper .title {
@@ -251,10 +254,11 @@ a.external:hover {
   margin-bottom: 15px;
   word-break: break-all;
   font-weight: bold;
+  text-align: center;
   margin-bottom: 25px;
   padding-bottom: 10px;
   border-bottom: 2px solid #eee;
-  color: #444;
+  color: #eee;
 }
 @media screen and (max-width: 767px) {
   .index-wrapper .title {
@@ -263,11 +267,12 @@ a.external:hover {
   }
 }
 .index-wrapper .title:hover {
-  color: red;
+  color: #444;
   text-decoration: none;
 }
 .index-wrapper .title-desc {
   color: #999;
+  text-align: center;
   font-size: 14px;
   line-height: 1.6;
 }
